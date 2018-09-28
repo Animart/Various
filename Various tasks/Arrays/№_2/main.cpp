@@ -39,7 +39,7 @@ int main()
  
     for (size_t i = 0; i < size_a; ++i)
     {
-        delete[] * (A + i);
+        delete[] *(A + i);
     }
     delete[] A;
  
